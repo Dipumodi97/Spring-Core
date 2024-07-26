@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: 07SpringBootYamlProfilesEx
+my:
+  app:
+    driver: Postgres
+    url: jdbc:postgre:thin
+    username: root
+    pwd: ABCD

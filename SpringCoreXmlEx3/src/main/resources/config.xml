@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd"> <!-- bean definitions here -->
+
+        <bean id="repo" class="com.apps.Repository">
+          <property name="entity" value="user" />
+        </bean>
+        
+        <bean id="service" class="com.apps.Service">
+          <property name="repository" ref="repo" />
+        </bean>
+        
+        <bean id="controller" class="com.apps.Controller">
+          <property name="service" ref="service" />
+        </bean>
+        
+ </beans>     

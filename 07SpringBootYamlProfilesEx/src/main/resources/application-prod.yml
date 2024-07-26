@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: 07SpringBootYamlProfilesEx
+my:
+  app:
+    driver: Oracle
+    url: jdbc:oracle:thin
+    username: dipu
+    pwd: modi12

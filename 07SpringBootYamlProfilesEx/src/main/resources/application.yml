@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: 07SpringBootYamlProfilesEx
+my:
+  app:
+    driver: MySql
+    url: jdbc:mysql:thin
+    username: root
+    pwd: Dipu123

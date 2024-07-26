@@ -1,0 +1,18 @@
+my:
+  app:
+    certi:
+       provider: GoLang
+       expExist: 10Years in Active
+    host: www.google.com
+    port: 965
+    username: root
+    password: Dipu
+    protocols:
+     - SMTP
+     - SMTPS
+     - SMTPS1
+    headers:
+     modified: true
+     version: 3.2v
+     content: JSON  
+
